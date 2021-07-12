@@ -1,0 +1,3 @@
+files:
+  - source: /config/locales/en
+    translation: '%file_name%'
