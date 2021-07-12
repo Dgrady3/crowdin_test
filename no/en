@@ -3,87 +3,87 @@
     attributes:
       meeting:
         akudo_id: Akudo ID
-        description: Description
-        ends_at: Ends at
-        name: Name
-        starts_at: Starts at
+        description: Beskrivelse
+        ends_at: Slutter på
+        name: Navn
+        starts_at: Starter på
         timezone: Timezone
     models:
-      meeting: Meeting
+      meeting: Møte
   administrate:
     actions:
-      edit_resource: Edit resource
-      show_resource: Show resource
+      edit_resource: Rediger ressurs
+      show_resource: Vis ressurs
   api:
     errors:
       missing_params:
-        detail: Params is missing or value is empty
-        title: Unprocessable Entity, missing parameter
+        detail: Parametere mangler eller er tomme
+        title: Ubehandlebar tittel, manglende parameter
       record_not_found:
-        detail: Record not found
-        title: Record not found
+        detail: Post ikke funnet
+        title: Post ikke funnet
       validation_error:
-        title: Validation Error
+        title: Feil under validering
     meetings:
       create:
-        success: Meeting has been created
+        success: Møtet er opprettet
       destroy:
-        success: Meeting has been removed
+        success: Møtet er fjernet
       update:
-        success: Meeting has been updated
-  current_locale: 'Current Locale: {{locale}}'
+        success: Møtet er opprettet
+  current_locale: 'Nåværende språk: {{locale}}'
   description:
-    part1: To get started, edit <1>src/App.js</1> and save to reload.
-    part2: Switch language between english and german using buttons above.
+    part1: For å komme i gang, rediger <1>src/App.js</1> og lagrer å laste inn på nytt.
+    part2: Bytt språk mellom engelsk og bakteriemann ved å bruke knappene ovenfor.
   errors:
     format: "%{attribute} %{message}"
     messages:
-      accepted: must be accepted
-      blank: can't be blank
-      confirmation: doesn't match %{attribute}
-      empty: can't be empty
-      equal_to: must be equal to %{count}
-      even: must be even
-      exclusion: is reserved
-      greater_than: must be greater than %{count}
-      greater_than_or_equal_to: must be greater than or equal to %{count}
-      in: must be in %{count}
-      inclusion: is not included in the list
-      invalid: is invalid
-      less_than: must be less than %{count}
-      less_than_or_equal_to: must be less than or equal to %{count}
-      model_invalid: 'Validation failed: %{errors}'
-      not_a_number: is not a number
-      not_an_integer: must be an integer
-      odd: must be odd
-      other_than: must be other than %{count}
-      present: must be blank
-      required: must exist
+      accepted: må være akseptert
+      blank: kan ikke være tomt
+      confirmation: samsvarer ikke med %{attribute}
+      empty: kan ikke være tomt
+      equal_to: må være lik %{count}
+      even: må være partall
+      exclusion: er reservert
+      greater_than: må være større enn %{count}
+      greater_than_or_equal_to: må være større enn %{count}
+      in: må være i %{count}
+      inclusion: er ikke inkludert i listen
+      invalid: er ugyldig
+      less_than: må være større enn %{count}
+      less_than_or_equal_to: må være større enn %{count}
+      model_invalid: 'Godkjenning mislyktes: %{errors}'
+      not_a_number: er ikke et tall
+      not_an_integer: må være et helt tall
+      odd: må være oddetall
+      other_than: må være større enn %{count}
+      present: kan ikke være tomt
+      required: må finnes
       too_long:
-        one: is too long (maximum is 1 character)
-        other: is too long (maximum is %{count} characters)
+        one: er for lang (maks antall tegn er 1)
+        other: er for lang (maks antall tegn er %{count})
       too_short:
-        one: is too short (minimum is 1 character)
-        other: is too short (minimum is %{count} characters)
+        one: er for lang (maks antall tegn er 1)
+        other: er for kort (minimum er %{count} tegn)
       wrong_length:
-        one: is the wrong length (should be 1 character)
-        other: is the wrong length (should be %{count} characters)
-  hello: Hello world
+        one: har feil lengde (skal være 1 tegn)
+        other: har feil lengde (skal være %{count} tegn)
+  hello: Hei, verden
   join_form:
-    display_name_label: Display Name
-    display_name_placeholder: Display Name
-    email_label: Email
-    email_placeholder: Email
-    errors_label: Form Errors
-    join: Join
-    join_id_label: Join ID
-    submit: Submit
+    display_name_label: Vis Navn
+    display_name_placeholder: Vis navn
+    email_label: E-post
+    email_placeholder: E-post
+    errors_label: Skjemafeil
+    join: Delta
+    join_id_label: Bli med ID
+    submit: Send
   models:
     meeting_link:
       errors:
-        not_found: 'Could not find meeting link for token: %{token}'
+        not_found: 'Finner ikke møtelink for token: %{token}'
     meetings_users_relation:
       errors:
-        expire_time: Expire time must be within the next 30 days
-        missing_value: Required field
-  title: KUDO Meeting
+        expire_time: Utløpstid må være i løpet av de neste 30 dagene
+        missing_value: Obligatorisk felt
+  title: KUDO Møte
