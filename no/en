@@ -1,0 +1,89 @@
+"no":
+  activerecord:
+    attributes:
+      meeting:
+        akudo_id: Akudo ID
+        description: Beskrivelse
+        ends_at: Slutter på
+        name: Navn
+        starts_at: Starter på
+        timezone: Timezone
+    models:
+      meeting: Møte
+  administrate:
+    actions:
+      edit_resource: Rediger ressurs
+      show_resource: Vis ressurs
+  api:
+    errors:
+      missing_params:
+        detail: Parametere mangler eller er tomme
+        title: Ubehandlebar tittel, manglende parameter
+      record_not_found:
+        detail: Post ikke funnet
+        title: Post ikke funnet
+      validation_error:
+        title: Feil under validering
+    meetings:
+      create:
+        success: Møtet er opprettet
+      destroy:
+        success: Møtet er fjernet
+      update:
+        success: Møtet er opprettet
+  current_locale: 'Nåværende språk: {{locale}}'
+  description:
+    part1: For å komme i gang, rediger <1>src/App.js</1> og lagrer å laste inn på nytt.
+    part2: Bytt språk mellom engelsk og bakteriemann ved å bruke knappene ovenfor.
+  errors:
+    format: "%{attribute} %{message}"
+    messages:
+      accepted: må være akseptert
+      blank: kan ikke være tomt
+      confirmation: samsvarer ikke med %{attribute}
+      empty: kan ikke være tomt
+      equal_to: må være lik %{count}
+      even: må være partall
+      exclusion: er reservert
+      greater_than: må være større enn %{count}
+      greater_than_or_equal_to: må være større enn %{count}
+      in: må være i %{count}
+      inclusion: er ikke inkludert i listen
+      invalid: er ugyldig
+      less_than: må være større enn %{count}
+      less_than_or_equal_to: må være større enn %{count}
+      model_invalid: 'Godkjenning mislyktes: %{errors}'
+      not_a_number: er ikke et tall
+      not_an_integer: må være et helt tall
+      odd: må være oddetall
+      other_than: må være større enn %{count}
+      present: kan ikke være tomt
+      required: må finnes
+      too_long:
+        one: er for lang (maks antall tegn er 1)
+        other: er for lang (maks antall tegn er %{count})
+      too_short:
+        one: er for lang (maks antall tegn er 1)
+        other: er for kort (minimum er %{count} tegn)
+      wrong_length:
+        one: har feil lengde (skal være 1 tegn)
+        other: har feil lengde (skal være %{count} tegn)
+  hello: Hei, verden
+  join_form:
+    display_name_label: Vis Navn
+    display_name_placeholder: Vis navn
+    email_label: E-post
+    email_placeholder: E-post
+    errors_label: Skjemafeil
+    join: Delta
+    join_id_label: Bli med ID
+    submit: Send
+  models:
+    meeting_link:
+      errors:
+        not_found: 'Finner ikke møtelink for token: %{token}'
+    meetings_users_relation:
+      errors:
+        expire_time: Utløpstid må være i løpet av de neste 30 dagene
+        missing_value: Obligatorisk felt
+  title: KUDO Møte
