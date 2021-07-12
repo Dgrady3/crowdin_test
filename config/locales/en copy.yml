@@ -1,0 +1,90 @@
+---
+en:
+  activerecord:
+    attributes:
+      meeting:
+        akudo_id: Akudo ID
+        description: Description
+        ends_at: Ends at
+        name: Name
+        starts_at: Starts at
+        timezone: Timezone
+    models:
+      meeting: Meeting
+  administrate:
+    actions:
+      edit_resource: Edit resource
+      show_resource: Show resource
+  api:
+    errors:
+      missing_params:
+        detail: Params is missing or value is empty
+        title: Unprocessable Entity, missing parameter
+      record_not_found:
+        detail: Record not found
+        title: Record not found
+      validation_error:
+        title: Validation Error
+    meetings:
+      create:
+        success: Meeting has been created
+      destroy:
+        success: Meeting has been removed
+      update:
+        success: Meeting has been updated
+  current_locale: 'Current Locale: {{locale}}'
+  description:
+    part1: To get started, edit <1>src/App.js</1> and save to reload.
+    part2: Switch language between english and german using buttons above.
+  errors:
+    format: "%{attribute} %{message}"
+    messages:
+      accepted: must be accepted
+      blank: can't be blank
+      confirmation: doesn't match %{attribute}
+      empty: can't be empty
+      equal_to: must be equal to %{count}
+      even: must be even
+      exclusion: is reserved
+      greater_than: must be greater than %{count}
+      greater_than_or_equal_to: must be greater than or equal to %{count}
+      in: must be in %{count}
+      inclusion: is not included in the list
+      invalid: is invalid
+      less_than: must be less than %{count}
+      less_than_or_equal_to: must be less than or equal to %{count}
+      model_invalid: 'Validation failed: %{errors}'
+      not_a_number: is not a number
+      not_an_integer: must be an integer
+      odd: must be odd
+      other_than: must be other than %{count}
+      present: must be blank
+      required: must exist
+      too_long:
+        one: is too long (maximum is 1 character)
+        other: is too long (maximum is %{count} characters)
+      too_short:
+        one: is too short (minimum is 1 character)
+        other: is too short (minimum is %{count} characters)
+      wrong_length:
+        one: is the wrong length (should be 1 character)
+        other: is the wrong length (should be %{count} characters)
+  hello: Hello world
+  join_form:
+    display_name_label: Display Name
+    display_name_placeholder: Display Name
+    email_label: Email
+    email_placeholder: Email
+    errors_label: Form Errors
+    join: Join
+    join_id_label: Join ID
+    submit: Submit
+  models:
+    meeting_link:
+      errors:
+        not_found: 'Could not find meeting link for token: %{token}'
+    meetings_users_relation:
+      errors:
+        expire_time: Expire time must be within the next 30 days
+        missing_value: Required field
+  title: KUDO Meeting
